@@ -1,0 +1,68 @@
+
+    body{
+        margin: 0px; /*Margem Externa */
+        padding: 0px; /*Margem Interna*/
+    }
+    #principal{
+        border: 1px solid black;
+        width: 100%;
+        height: 100px;
+
+        background-color: #303030;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #BABABA;
+
+    }
+
+    #principal div a{
+        font-size: 25px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Inter';
+    }
+
+    #principal div a:hover { /*"hover" é utilizado para trazer animação*/
+        color: #CCCCCC;
+    }
+
+    #menu {
+        display: flex;
+        width: 45%;
+        justify-content: space-around; /*Permita que distribua de maneira igualitáriamente*/
+        align-items: center;
+        font-size: 25px;
+
+        margin-left: 4%;
+    }
+
+    #principal button{
+        
+        margin-right: 5%; /*Fazer Margin com "%" deixa o layout mais proporcional ao tamanho de tela*/  
+        background: #0C70F2;
+        border: 0px;
+        
+
+        height: 40px;
+        width: 80px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFFFFF;
+
+        box-shadow: 3px 2px 4px  rgba(12, 112, 242, 0.25);
+        /*
+        rgba
+        r = red
+        g = green
+        b = blue
+        a = alpha/transparência, sendo 1 =100% e 0 = 0% 
+        */
+
+        cursor: pointer;
+    }
