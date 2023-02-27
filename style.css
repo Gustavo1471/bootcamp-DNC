@@ -36,6 +36,11 @@
         color: #FFFFFF;
         text-decoration: none;
         font-family: var(--fonte-padrao);
+        margin-left: 0px;
+    }
+
+    #principal div a:first-child{
+        margin-right: 40px;
     }
 
     #principal div a:hover { /*"hover" é utilizado para trazer animação*/
@@ -325,5 +330,15 @@
 
     .checkboxItens label{
         font-size: 15px ;
+    }
+
+    /*Footer*/
+
+    footer .linha1 {
+        flex-direction: column;
+    }
+
+    footer .endereco {
+        width: 95%;
     }
 }
